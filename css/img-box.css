@@ -1,0 +1,21 @@
+.image-box {
+    padding-right: 4rem;
+    background: white;
+}
+
+.img-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-results img {
+    margin: 5px;
+    transition: all 1s;
+    width: 150px;
+    height: 100px;
+}
+
+.img-results img:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,20 @@
+.web-box {
+    padding-left: 4rem;
+}
+
+.web-title {
+    margin: 0;
+}
+
+.web-snippet {
+    margin: 0;
+}
+
+.web-link {
+    margin: 0;
+    color: #5a9bd4;
+}
+
+.web-item {
+    margin-bottom: 2rem;
+}

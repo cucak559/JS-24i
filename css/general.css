@@ -1,0 +1,23 @@
+html, body {
+    box-sizing: border-box;
+    font-family: 'helvetica neue', sans-serif;
+    margin: 0;
+    font-size: 20px;
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(45deg, #DBE2ED, white);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.container {
+    padding: 25px 50px;
+}
+
+.results {
+    display: flex;
+}

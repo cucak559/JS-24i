@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>24i Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="search-box">
+
+        <input id="search" placeholder="Search..." type="text">
+        <button class="search-button" onclick="search(fetcher)">Search</button>
+    </div>
+
+    <div class="results">
+
+        <div class="img-box">
+            <div class="img-content">
+                <h3>Image result</h3>
+                <div class="img-results"></div>
+            </div>
+
+        </div>
+
+        <div class="web-box">
+            <div class="web-content">
+                <h3>Web result</h3>
+
+                <div class="web-results" id="w-results"></div>
+                <!--<a href="javascript:prevPage()" id="btn_prev">Prev</a>-->
+                <!--<a href="javascript:nextPage()" id="btn_next">Next</a>-->
+                <!--page: <span id="page"></span>-->
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<script src="js/index.js"></script>
+
+</body>
+</html>

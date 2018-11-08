@@ -1,0 +1,17 @@
+@import url("wrapper.css");
+
+.img-box, .web-box {
+    flex: 1;
+}
+
+.img-content, .web-content {
+    border-radius: 10px;
+    padding: 1.5rem;
+    border: 2px solid #ebeaec;
+    background: white;
+}
+
+
+
+
+
