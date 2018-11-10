@@ -12,7 +12,7 @@
     <div class="search-box">
 
         <input id="search" placeholder="Search..." type="text">
-        <button class="search-button" onclick="search(fetcher)">Search</button>
+        <button class="search-button" onclick="search()">Search</button>
     </div>
 
     <div class="results">
@@ -30,9 +30,9 @@
                 <h3>Web result</h3>
 
                 <div class="web-results" id="w-results"></div>
-                <!--<a href="javascript:prevPage()" id="btn_prev">Prev</a>-->
-                <!--<a href="javascript:nextPage()" id="btn_next">Next</a>-->
-                <!--page: <span id="page"></span>-->
+                <a href="javascript:prevPage()" id="btn_prev"></a>
+                <a id="btn_current">1</a>
+                <a href="javascript:nextPage()" id="btn_next">2</a>
             </div>
 
         </div>
