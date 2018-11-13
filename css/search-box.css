@@ -16,4 +16,18 @@
 .search-box button {
     width: 9%;
     height: 100%;
+    border: 2px solid #9D9D9D;
+    padding: .5rem;
+}
+
+/*Media queries*/
+
+@media (max-width: 1200px) {
+    .search-box button {
+        width: 9%;
+        font-size: 12px;
+        height: 100%;
+        border: 2px solid #9D9D9D;
+        padding: .2rem;
+    }
 }

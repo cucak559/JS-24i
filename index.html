@@ -19,7 +19,7 @@
 
         <div class="img-box">
             <div class="img-content">
-                <h3>Image result</h3>
+                <h3 class="gray">Image result</h3>
                 <div class="img-results"></div>
             </div>
 
@@ -27,12 +27,14 @@
 
         <div class="web-box">
             <div class="web-content">
-                <h3>Web result</h3>
+                <h3 class="gray">Web result</h3>
 
                 <div class="web-results" id="w-results"></div>
-                <a href="javascript:prevPage()" id="btn_prev"></a>
+                <div class="text-center gray">
+                <a class="gray" href="javascript:prevPage()" id="btn_prev"></a>
                 <a id="btn_current">1</a>
-                <a href="javascript:nextPage()" id="btn_next">2</a>
+                <a class="gray" href="javascript:nextPage()" id="btn_next">2</a>
+                </div>
             </div>
 
         </div>
@@ -40,7 +42,7 @@
     </div>
 </div>
 
-
+<script src="js/Fetcher.js"></script>
 <script src="js/index.js"></script>
 
 </body>

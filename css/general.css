@@ -21,3 +21,11 @@ body {
 .results {
     display: flex;
 }
+
+.text-center{
+    text-align: center;
+}
+
+.gray{
+    color: #9D9D9D;
+}
